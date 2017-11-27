@@ -9,8 +9,8 @@ title: About
 # Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. -->
 
 # You can show the description on the page by deleting this line:
 hide_description: true
@@ -19,8 +19,6 @@ hide_description: true
 menu: true
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Hello! My name is Janice and I'm a web developer, born, raised, and living in NYC. I recently graduated a coding bootcamp called Actualize, mainly focusing on Ruby and Javascript. Previously, I received my Bachelor's in Math and Master's in Math Ed from Rutgers, taught Math to high school students, and am now a Project Manager at a global bank as well as a web development apprentice at an organization that caters to nonprofits through technology.
 
-Open `about.md` to edit this text.
+Nowadays, you can find me at [12 Corner's](https://www.yelp.com/biz/12-corners-coffee-new-york) continuing to build my portfolio, stuffing my face at [Ruby's](https://www.yelp.com/biz/rubys-murray-hill-new-york), or salsa dancing!

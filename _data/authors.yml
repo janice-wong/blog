@@ -3,17 +3,13 @@
 # You can change `author1` to your shortname.
 author1:
   # Replace <...> with your own (remove the < >)
-  name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+  name:              Janice Wong
+  email:             go.janicewong@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-    Open `_data/authors.yml` to edit this text.
 
   # This photo will be used in the about section.
   picture:
@@ -24,12 +20,12 @@ author1:
       2x:            https://placehold.it/256x256
 
   # Social media icons in sidebar.
-  # Comment/uncommet to show/hide. Rearrange to change the order in which they appear.
+  # Comment/uncomment to show/hide. Rearrange to change the order in which they appear.
   social:
-    twitter:         <username>
-    github:          <username>
-    download:        https://github.com/qwtel/hydejack-starter-kit/archive/master.zip
-    # email:           mailto:<mail@domain.tld>
+    # twitter:         <username>
+    github:          janice-wong
+    # download:        https://github.com/qwtel/hydejack-starter-kit/archive/master.zip
+    email:           mailto:go.janicewong@gmail.com
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
@@ -58,7 +54,7 @@ author1:
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    # linkedin:        <firstname-lastname-string>
+    linkedin:        janice-wong
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
