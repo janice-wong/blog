@@ -2,6 +2,7 @@
 layout: about
 title: About
 menu: true
+order: 1
 ---
 
 Hello! My name is Janice and I'm a web developer, born, raised, and living in NYC. I recently graduated a coding bootcamp called Actualize, which focused mainly on Ruby and JS. Previously, I received my Bachelor's in Math and Master's in Math Ed from Rutgers, taught Math to high school students, and am currently:

@@ -2,6 +2,7 @@
 title: Projects
 layout: page
 menu: true
+order: 2
 ---
 <!-- ### IMTI -->
 <!-- ### Blackbird -->
