@@ -4,9 +4,7 @@ layout: page
 menu: true
 order: 2
 ---
-<!-- ### IMTI -->
-<!-- ### Blackbird -->
-### UCal
+## UCal
 [Live](http://u-cal.herokuapp.com) : [Github](https://github.com/janice-wong/ucal)
 
 A Rails app that allows you to easily schedule group events. Users can create events by viewing group calendars or inputting parameters to find times that work for everyone. Users can then vote on these options to collectively finalize an event time. UCal features the Twilio API to send invitations and receive responses through text.
@@ -14,13 +12,18 @@ A Rails app that allows you to easily schedule group events. Users can create ev
 
 ___
 
-### StreetEasy
+## StreetEasy
 [Live](https://street-easy.herokuapp.com) : [Github](https://github.com/janice-wong/street_easy)
 
-A Rails app that seeds data from NYC Open Data's API and generates reports of NYC building energy usage per year.
+A Rails app that seeds data from NYC Open Data's API and generates reports of NYC building energy usage per year
 
 ![](http://i67.tinypic.com/15hj5tl.jpg)
 
-<!-- ### React / Rails Recipe Repo
-### Algo practice -->
+___
 
+## Tee Time
+[Live](https://teetimeapp.herokuapp.com/) : [Github](https://github.com/janice-wong/tee-time)
+
+E-commerce website that uses RESTful routes and associations so users can add items to their cart and complete orders
+
+![](http://i65.tinypic.com/16scr9.png)
