@@ -44,7 +44,9 @@ There are two ways to go about this - **seed the database using the `seeds.rb` f
 
 {:start="5"}
 
-5. Install the [Faker gem](https://github.com/stympy/faker) (one of my favorites) and `require` it in `seeds.rb`. Then create multiple entries in the `Concert` table using Faker.
+5. Install the [Faker gem](https://github.com/stympy/faker) (one of my favorites) by adding it to your `Gemfile` and running `bundle install` (or `bundle` for short) in Terminal.
+
+6. Then `require` the `'Faker'` gem in `seeds.rb`. Then create multiple entries in the `Concert` table using Faker.
 
    Take note of the `Faker` syntax below. `Faker` is the module being used for namespacing and `RickAndMorty`, `Date`, and `Number` are classes. Check out [my previous post on modules](/2017/11/27/modules/) for reference.
 
@@ -63,15 +65,15 @@ require 'Faker'
 end
 ```
 
-{:start="6"}
+{:start="7"}
 
-6. In Terminal, `rails db:seed` to seed your database. You should receive no feedback if this was successful. To check if it indeed worked, you can ask `rails console` to return all the Concerts using `Concert.all` or the first concert using `Concert.first`.
+7. In Terminal, `rails db:seed` to seed your database. You should receive no feedback if this was successful. To check if it indeed worked, you can ask `rails console` to return all the Concerts using `Concert.all` or the first concert using `Concert.first`.
 
 ### Finish it off
 
-{:start="7"}
+{:start="8"}
 
-7. This API will only have one URL that will show all concerts and their information. In `routes.rb`, create one route using a **`GET` request** to the **`/concerts` url** *routing* to the **`index` method** of the **`Concerts` controller**. (That was a lot of vocab, but it's important to know what each of those are and how to reference them.)
+8. This API will only have one URL that will show all concerts and their information. In `routes.rb`, create one route using a **`GET` request** to the **`/concerts` url** *routing* to the **`index` method** of the **`Concerts` controller**. (That was a lot of vocab, but it's important to know what each of those are and how to reference them.)
 
 ```ruby
 # routes.rb
@@ -81,9 +83,9 @@ Rails.application.routes.draw do
 end
 ```
 
-{:start="8"}
+{:start="9"}
 
-8. Create the `index` method in the `Concerts` controller to show all concerts and their information in JSON (Javascript Object Notation) format.
+9. Create the `index` method in the `Concerts` controller to show all concerts and their information in JSON (Javascript Object Notation) format.
 
 ```ruby
 # concerts_controller.rb
@@ -104,9 +106,18 @@ class ConcertsController < ApplicationController
 end
 ```
 
-{:start="9"}
+{:start="10"}
 
-9. Back in your browser, check out `localhost:3000/concerts` to ensure your concerts are indeed shown in JSON. It should look something like this:
+10. Back in your browser, check out `localhost:3000/concerts` to ensure your concerts are indeed shown in JSON. It should look something like this:
 ![](/assets/img/API_example.png)
 
-And bada bing, bada boom, you're done! You've created and exposed an API that returns information about concerts. Check out my [next post](/2017-12-02-consuming-an-API) to learn how to consume this API.
+### And that's it!
+
+You've created and exposed an API that returns information about concerts by:
+1. Creating the foundation of a Rails API
+2. Populating your database
+3. Creating a route to render concert information in JSON
+
+Check out my [next post](/2017-12-02-consuming-an-API) to learn how to use (or consume) this API.
+
+*Note we did not any versioning to our API. Check out [this post](/2017/12/03/API-versioning) if you'd like to see how that's done.*
