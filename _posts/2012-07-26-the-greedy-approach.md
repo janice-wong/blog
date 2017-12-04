@@ -119,3 +119,5 @@ end
 
 You can see here the loop is being iterated through only once and
 only 5 variables are holding integer values, thus satisfying both O(n)time and O(1) space.
+
+After having gone through multiple Interview Cake problems since this one, I've definitely seen the benefits of using of the **greedy approach** to solve with efficiency in mind.
