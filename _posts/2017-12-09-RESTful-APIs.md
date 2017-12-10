@@ -139,7 +139,10 @@ end
 
 {:start="10"}
 10. Test out your `POST` request (aka `create` method) by running `frontend.rb`! If you did it correctly, it might look like this:
+
 ![](/assets/img/created_concert.png)
+
+___
 
 You can take a breather now. We're finally done. We have yet to add the last two RESTful routes `update` and `delete`, but those will come soon.
 
